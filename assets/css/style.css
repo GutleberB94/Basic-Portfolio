@@ -97,12 +97,14 @@ a {
     font-weight: bold;
     color: #cccccc;
 }
+
 img {
     height: 300px;
     width: 300px;
     float: left;
     margin-right: 15px;
 }
+
 .overLay {
     position: absolute;
     background: #4aaaa5;
@@ -112,13 +114,16 @@ img {
     width: 100%;
     margin: auto;
 }
-.portfolioImagesLeft {
+.portfolioImages {
+    display: flex;
+    flex-direction: row;
     height: 300px;
     width: 300px;
     float: left;
     position: relative;
     margin-right: 15px;
 }
+/*
 .imageFloat {
     float: left;
     margin-right: 20px;
