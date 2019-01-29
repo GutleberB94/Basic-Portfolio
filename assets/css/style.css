@@ -116,22 +116,24 @@ img {
 }
 .portfolioImages {
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
     height: 300px;
     width: 300px;
     float: left;
     position: relative;
     margin-right: 15px;
 }
-/*
+
 .imageFloat {
+    display: flex;
+    flex-direction: row wrap;
+    height: 300px;
+    width: 300px;
     float: left;
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: inline;
+    position: relative;
+    margin-right: 15px;
 }
-*/
+
 .contactMe {
     width: 100%;
 }
