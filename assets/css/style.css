@@ -215,3 +215,74 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+<<<<<<< HEAD
+=======
+body {
+    background: #baecf0;
+    margin: 0px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.overLay {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 5px;
+    text-align: center;
+    padding: 5px 0px;
+    width: 100%;
+    margin: auto;
+}
+.portfolioImages {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    float: left;
+    position: relative;
+    margin-right: 15px;
+}
+/*
+.imageFloat {
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+}
+*/
+.contactMe {
+    width: 100%;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+>>>>>>> b194aa02c5176858f0229be146cd745dc3d78cba
