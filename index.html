@@ -1,58 +1,91 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Brendan Gutleber Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Bootstrap Portfolio</title>
 </head>
-
-<header>
-
-    <div id="myName">
-        Brendan Gutleber
-    </div>
-
-    <div id="nav">
-        <a href="index.html"> About me </a> |
-        <a href="portfolio.html"> Portfolio </a> |
-        <a href="contact.html"> Contact </a>
-    </div>
-
-</header>
 
 <body>
 
-    <div class="middleSection">
+    <!-- Navigation bar   ---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Brendan Gutleber</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+        </div>
+    </nav>
 
-        <h2>About me</h2>
-        <hr>
-        <img src="assets/images/IMG_20160813_171645.jpg" alt="random dog" id="photo">
-        <p>
-            My name is Brendan Gutleber. I was born and grew up in Middletown, New Jersey.
-        </P>
-            Ne sed summo erant. Ex pro reque accumsan periculis, no vel viris doctus phaedrum. Nec paulo graeco ei. An
-            has munere legendos aliquando, admodum tractatos vel te. Mel no similique dissentias, adhuc option qui ei.
-            Utroque dissentiet eum ne, at nec eius mazim habemus, at sumo idque labore pro.
-        </P>
-            No utinam vulputate voluptatum est. Sea solet aeterno erroribus te. Per ut soluta omnesque fabellas, animal
-            facilisi necessitatibus no sed. Euismod veritus nam te, cu vim stet adhuc pertinax. Duis adipisci ocurreret
-            vix at, ad omnes dolorum nam, vim dicta tollit volumus te.
-        </P>
-        <p>
-            Et congue eligendi cum, facete ponderum quo ne, nam ne nostrum suavitate. Alterum voluptaria his ne. Ne
-            melius mediocritatem sea. Laoreet singulis rationibus pri an, vero deleniti officiis ut pro. Ne homero
-            equidem eum, vel no prima illum voluptua, duo etiam possit at.
 
-        </p>
+    <!-- main container   ---->
+    <div class="container centerText">
+        <div class="row row1">
+            <div class="col-md-4">
+                <img src="assets/images/cat.jpg" class="selfPhoto" alt="Cat">
+            </div>
+
+            <div class="col-md-8 aboutMeText">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Sed odio morbi quis commodo odio aenean sed adipiscing. In eu mi bibendum
+                    neque egestas congue. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus.
+                    Ultricies mi quis hendrerit dolor. Magna fermentum iaculis eu non. Vulputate enim nulla aliquet
+                    porttitor lacus luctus accumsan. Posuere lorem ipsum dolor sit amet. Convallis convallis tellus id
+                    interdum velit laoreet id donec ultrices. A arcu cursus vitae congue mauris rhoncus. Amet mattis
+                    vulputate enim nulla aliquet porttitor lacus luctus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Sed odio morbi quis commodo odio aenean sed adipiscing. In eu mi bibendum
+                    neque egestas congue. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus.
+                    Ultricies mi quis hendrerit dolor. Magna fermentum iaculis eu non. Vulputate enim nulla aliquet
+                    porttitor lacus luctus accumsan. Posuere lorem ipsum dolor sit amet. Convallis convallis tellus id
+                    interdum velit laoreet id donec ultrices. A arcu cursus vitae congue mauris rhoncus. Amet mattis
+                    vulputate enim nulla aliquet porttitor lacus luctus.
+                </p>
+            </div>
+
+
+        </div>
 
     </div>
+    </div>
 
+
+    <!-- footer   ---->
+    <footer class="container-fluid text-center">
+        <p>Copyright &copy</p>
+    </footer>
+
+
+    <!----  Bootstrap javascript information  ---->
+    <div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    </div>
 </body>
-
-<footer>
-    <p id="c"> Copyright</p>
-</footer>
 
 </html>
