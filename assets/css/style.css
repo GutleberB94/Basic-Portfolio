@@ -1,54 +1,17 @@
-.selfPhoto {
-    height: 40%;
-}
-.row1 {
-    margin: 10px;
-}
-
-.aboutMeText {
-    text-indent: 50px;
-    float: left;
-}
-footer {
-    background-color: #212529;
-    color: white;
-    padding: 5px;
-    position: sticky;
-    bottom: 0px;
-    margin-top: 20%;
-  }
-  .contactMe{
-    margin: 2% 20% 8% 20%;
-    border: solid 2px grey;
-    width: 100%;
-    padding: 3% 0% 3% 4%;
-    background-color: #555;
-    color: azure;
-  }
-  input {
-      width: 90%;
-  }
-  textarea {
-      width: 90%;
-  }
+/*
   body {
       background: url(../images/skyline.jpg) no-repeat;
       background-size: cover;
   }
-  .centerText {
-      background-color: #555;
-      color: azure;
-      margin-top: 2%;
-      margin-bottom: 5%;
-      min-height: 80%;
-      padding: 5%;
-  }
-  .card {
-      margin: 5%;
-  }
-  .newForm {
-      background-color: #212529;
-      color: azure;
-      margin-top: 5%;
-      padding: 2%;
-  }
+  */
+
+  .view {
+    background: url("../images/skyline.jpg")no-repeat center center;
+    background-size: cover;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
