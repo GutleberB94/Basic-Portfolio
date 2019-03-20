@@ -5,13 +5,20 @@
   }
   */
 
-  .view {
-    background: url("../images/skyline.jpg")no-repeat center center;
-    background-size: cover;
+.view {
+  background: url("../images/skyline.jpg")no-repeat center center;
+  background-size: cover;
 }
 html,
 body,
 header,
 .view {
   height: 100%;
+}
+
+.bio {
+
+  margin-bottom: 10%;
+  margin-top: 5%;
+
 }
