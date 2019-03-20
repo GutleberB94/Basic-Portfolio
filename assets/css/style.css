@@ -20,5 +20,12 @@ header,
 
   margin-bottom: 10%;
   margin-top: 5%;
+  background-color: peach-gradient;
+
+}
+
+.self-photo {
+
+  max-height: 5rem;
 
 }
