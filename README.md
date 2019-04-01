@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-This is a personal website to showcase my name HTML and CSS skills
+This is a personal website to showcase my HTML and CSS skills
 
 # Contributors
 @GutleberB94
