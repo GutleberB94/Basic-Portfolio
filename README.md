@@ -9,13 +9,14 @@ This is a personal website to showcase my HTML and CSS skills
 
 My porfolio uses these fundamental languages:
 
-* [HTML] - basic HTML
-* [CSS] - basic CSS
+* [HTML] 
+* [CSS] 
+* [Material Design Bootstrap]  
 
 
 ### About
 
-This is a small personal website to demonstrate my newly learned HTML and CSS skills.
+This is a small personal website to show projects I have worked on.
 
 
 
