@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-This is a personal website to showcase my HTML and CSS skills
+This is a personal website to showcase my HTML and CSS skills as well as link to my projects.
 
 # Contributors
 @GutleberB94
@@ -22,6 +22,6 @@ This is a small personal website to show projects I have worked on.
 
 #### Contact
 
-Aspiring Full-stack Web Developer
+Full-stack Web Developer
 
-* Email: Gutleberb@outlook.com
+* Email: Gutleberb@gmail.com
